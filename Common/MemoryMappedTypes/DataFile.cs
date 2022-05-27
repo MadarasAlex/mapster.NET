@@ -20,21 +20,21 @@ public delegate bool MapFeatureDelegate(MapFeatureData featureData);
 
 public enum KeyTypes
 {
-    Amenity,
-    Boundary,
-    Admin_Level,
-    Building,
-    Highway,
-    Landuse,
-    Leisure,
-    Military,
-    Natural,
-    Place,
-    Railway,
-    Sport,
-    Water,
-    Waterway,
-    Name
+    Highway, 
+    Boundary, 
+    Leisure, 
+    Waterway, 
+    Amenity, 
+    Water, 
+    Sport, 
+    Building, 
+    Natural, 
+    Name, 
+    Admin_Level, 
+    Landuse, 
+    Military, 
+    Place, 
+    Railway
 }
 
 public enum ValuesType
@@ -45,33 +45,33 @@ public enum ValuesType
 
 public enum LandType
 {
-    Forest,
-    Orchard,
-    Residential,
-    Cemetery,
-    Industrial,
-    Commercial,
-    Square,
-    Construction,
-    Military,
-    Quarry,
-    Brownfield,
-    Farm,
-    Meadow,
-    Grass,
-    Greenfield,
-    Recreation_Ground,
-    Winter_Sports,
-    Allotments,
-    Reservoir,
-    Basin
+    Military, 
+    Recreation_Ground, 
+    Industrial, 
+    Allotments, 
+    Orchard, 
+    Farm, 
+    Residential, 
+    Basin, 
+    Grass, 
+    Meadow, 
+    Cemetery, 
+    Winter_Sports, 
+    Commercial, 
+    Construction, 
+    Reservoir, 
+    Forest, 
+    Square, 
+    Brownfield, 
+    Greenfield, 
+    Quarry
 }
 
 public enum PopulatedType
 {
-    City,
-    Town,
     Locality,
+    Town,
+    City,
     Hamlet
 }
 

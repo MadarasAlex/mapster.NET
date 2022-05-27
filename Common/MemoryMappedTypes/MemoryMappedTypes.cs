@@ -119,19 +119,19 @@ public struct MapFeature
     // https://wiki.openstreetmap.org/wiki/Key:highway
     public enum HighwayTypesEnum
     {
-        Motorway,
+        Residential,
         Trunk,
         Primary,
         Secondary,
-        Tertiary,
         Unclassified,
-        Residential,
+        Tertiary,
+        Motorway,
         Road
     }
     
     public static string[] HighwayTypes =
     {
-        "motorway", "trunk", "primary", "secondary", "tertiary", "unclassified", "residential", "road"
+        "residential", "trunk", "motorway", "primary", "secondary", "unclassified", "tertiary", "road"
     };
 
     [FieldOffset(0)] public long Id;
